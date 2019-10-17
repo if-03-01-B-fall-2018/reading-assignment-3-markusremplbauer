@@ -1,0 +1,118 @@
+<!-- Markus Remplbauer CheatSheet -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+                body {
+                    background-color: lightskyblue;
+                }
+
+                h2{
+                    font-family: verdana;
+                    color: rgb(7, 7, 90);
+                    text-align: left;
+                }
+
+                h3{ 
+                    font-family: verdana;
+                    color: darkblue;
+                    text-align: left;
+                }
+
+                dt {
+                    font-family: verdana;
+                    font-size: 20px;
+                    color: white;
+                    text-align: left;
+                }
+
+                dd {
+                    font-family: verdana;
+                    font-size: 15px;
+                    color: blue;
+                }
+
+                li {
+                    font-family: verdana;
+                    font-size: 20px;
+                    color: white;
+                    text-align: left;
+                }
+         </style>
+        <meta charset= "utf-8">     
+        <title>Cheat Sheet by Markus Remplbauer</title> 
+    </head>
+    <body>
+        <h2>Html for Lists</h2>
+        <ol type="1">
+            <li>Start tags for</li>
+            <ul>
+                <dl>
+                    <li>an ordered list</li>
+                    <dd>- &ltol&gt</dd>
+                    <li>an unordered list</li>
+                    <dd>- &ltul&gt</dd>
+                    <li>a description list</li>
+                    <dd>- &ltdl&gt</dd>
+                    <li>a list item</li>
+                    <dd>- &ltli&gt</dd>
+                    <li>a description term</li>
+                    <dd>- &ltdt&gt</dd>
+                    <li>a description data</li>   
+                    <dd>- &ltdd&gt</dd>
+                </dl>
+            </ul>
+        </ol>
+
+        <h2>Css for Lists:</h2>
+        <ol type ="1">
+            <dl>
+                <li>Make bullet a square</li>
+                <dd>ul.a { list-style-type: square;}</dd>
+                <li>Make bullet an image named "my-bullet.png"</li>
+                <dd>ul { list-style-image: url('my-bullet.png'); }</dd>
+                <li> Make bullet an uppercase roman number</li>
+                <dd>ol.b { list-style-type: upper-roman; }</dd>
+                <li>Set bullet position to be inside the list item's text flow</li>
+                <dd>ul.b { list-style-position: inside; }</dd>
+                <li>Set bullet position to be outside the list item's text flow</li>
+                <dd>ul.d { list-style-position: outside; }</dd>
+            </dl>
+        </ol>
+
+        <h2>Html for Tables</h2>
+        <ol type="1">
+                <li>Start tags for</li>
+                <ul>
+                    <dl>
+                        <li>a table</li>
+                        <dd>&lttable&gt</dd>
+                        <li>a tabel row</li>
+                        <dd>&lttr&gt</dd>
+                        <li>a table header</li>
+                        <dd>&ltthead&gt</dd>
+                        <li>a tabel header cell</li>
+                        <dd>&ltth&gt</dd>
+                        <li>a table body</li>
+                        <dd>&lttbody&gt</dd>
+                        <li>a table cell</li>
+                        <dd>&lttd&gt</dd>
+                        <li>a table footer</li>
+                        <dd>&lttfoot&gt</dd>
+                        <li>a table footer cell</li>
+                        <dd>&lttr&gt</dd>
+                    </dl>
+                </ul>
+            </ol>
+        
+        <h2>Css for Tables</h2>
+        <ol type="1">
+            <li>Black dotted border of 1 px width</li>
+            <dd>table { border: 1px dotted black; }</dd>
+            <li>Solid border of 1 px width having a red color and rounded corners</li>
+            <dd>table { border: 1px solid black; border-color: red; border-radius: 5px; }</dd>
+            <li>Merge the borders of table cells so that they appear as one line</li>
+        </ol>
+    </body>
+</html>
+    
